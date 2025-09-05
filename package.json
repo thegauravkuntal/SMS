@@ -1,0 +1,31 @@
+{
+  "name": "sms",
+  "version": "1.0.0",
+  "description": "SMS Backend",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thegauravkuntal/SMS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/thegauravkuntal/SMS/issues"
+  },
+  "homepage": "https://github.com/thegauravkuntal/SMS#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "mongoose": "^8.18.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
